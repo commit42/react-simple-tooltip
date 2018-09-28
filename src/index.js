@@ -38,6 +38,7 @@ class Wrapper extends React.Component {
       offset,
       arrow,
       background,
+      boxShadow,
       border,
       children,
       color,
@@ -45,6 +46,7 @@ class Wrapper extends React.Component {
       fixed,
       fontFamily,
       fontSize,
+      fontWeight,
       padding,
       placement,
       radius,
@@ -70,7 +72,9 @@ class Wrapper extends React.Component {
           radius={radius}
           fontFamily={fontFamily}
           fontSize={fontSize}
+          fontWeight={fontWeight}
           padding={padding}
+          boxShadow={boxShadow}
         >
           <Arrow
             width={arrow}
@@ -102,6 +106,7 @@ Wrapper.propTypes = {
   arrow: PropTypes.number,
   background: PropTypes.string,
   border: PropTypes.string,
+  boxShadow: PropTypes.string,
   children: PropTypes.any,
   color: PropTypes.string,
   content: PropTypes.any.isRequired,
@@ -110,10 +115,11 @@ Wrapper.propTypes = {
   fixed: PropTypes.bool,
   fontFamily: PropTypes.string,
   fontSize: PropTypes.string,
+  fontWeight: PropTypes.string,
   offset: PropTypes.number,
-  padding: PropTypes.number,
+  padding: PropTypes.string,
   placement: PropTypes.oneOf(["left", "top", "right", "bottom"]),
-  radius: PropTypes.number,
+  radius: PropTypes.string,
   zIndex: PropTypes.number,
 }
 
@@ -121,6 +127,7 @@ Wrapper.defaultProps = {
   arrow: 8,
   background: "#000",
   border: "#000",
+  boxShadow: "0 2px 4px 0 rgba(70, 72, 80, 0.25)",
   children: null,
   color: "#fff",
   fadeDuration: 0,
@@ -128,10 +135,11 @@ Wrapper.defaultProps = {
   fixed: false,
   fontFamily: "inherit",
   fontSize: "inherit",
+  fontWeight: "normal",
   offset: 0,
-  padding: 16,
+  padding: "1rem 3rem",
   placement: "top",
-  radius: 0,
+  radius: "0.25rem",
   zIndex: 1,
 }
 

@@ -5,8 +5,8 @@ import Bubble from "./index"
 const bubbleProps = {
   background: "#000",
   color: "#fff",
-  padding: 10,
-  radius: 2,
+  padding: "1rem 2rem",
+  radius: "1rem",
 }
 const BubbleFixture = <Bubble {...bubbleProps} />
 const BubbleNoPropsFixture = <Bubble />
