@@ -5,6 +5,7 @@ exports[`Tooltip Should render without children 1`] = `
   arrow={8}
   background="#000"
   border="#000"
+  boxShadow="0 2px 4px 0 rgba(70, 72, 80, 0.25)"
   color="#fff"
   content="my content"
   fadeDuration={0}
@@ -12,10 +13,11 @@ exports[`Tooltip Should render without children 1`] = `
   fixed={false}
   fontFamily="inherit"
   fontSize="inherit"
+  fontWeight="normal"
   offset={0}
-  padding={16}
+  padding="1rem 3rem"
   placement="top"
-  radius={0}
+  radius="0.25rem"
   zIndex={1}
 >
   <styled.div>
@@ -45,18 +47,21 @@ exports[`Tooltip Should render without children 1`] = `
             <Tooltip.Bubble
               background="#000"
               border="#000"
+              boxShadow="0 2px 4px 0 rgba(70, 72, 80, 0.25)"
               color="#fff"
               fontFamily="inherit"
               fontSize="inherit"
-              padding={16}
-              radius={0}
+              fontWeight="normal"
+              padding="1rem 3rem"
+              radius="0.25rem"
             >
               <div
-                className="sc-iwsKbI jAfIlk"
+                className="sc-iwsKbI jnhQlY"
                 color="#fff"
                 fontFamily="inherit"
                 fontSize="inherit"
-                radius={0}
+                fontWeight="normal"
+                radius="0.25rem"
               >
                 <Tooltip.Arrow
                   background="#000"
@@ -92,6 +97,7 @@ exports[`Tooltip should render 1`] = `
   arrow={8}
   background="#000"
   border="#000"
+  boxShadow="0 2px 4px 0 rgba(70, 72, 80, 0.25)"
   color="#fff"
   content="my content"
   fadeDuration={0}
@@ -99,10 +105,11 @@ exports[`Tooltip should render 1`] = `
   fixed={false}
   fontFamily="inherit"
   fontSize="inherit"
+  fontWeight="normal"
   offset={0}
-  padding={16}
+  padding="1rem 3rem"
   placement="top"
-  radius={0}
+  radius="0.25rem"
   zIndex={1}
 >
   <styled.div
